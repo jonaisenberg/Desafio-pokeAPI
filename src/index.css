@@ -1,0 +1,38 @@
+/* :root {
+  display: flex;
+  justify-content: center;
+} */
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 30px;
+  background-color: rgb(55, 55, 55);
+}
+
+.inicio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.selector {
+  display: grid;
+  justify-content: center;
+  margin: 4rem;
+}
+
+.active {
+color: rgb(201, 43, 38);
+font-weight: bold;
+}
+
+.detalle {
+  margin-left: 130px;
+  margin-right: 130px;
+}
+
+.pikachu {
+  width: 650px;
+}
