@@ -1,6 +1,5 @@
 import { useParams } from 'react-router-dom'
 import { useEffect, useState } from 'react'
-import 'bootstrap/dist/css/bootstrap.min.css'
 import { Card, Col, Row } from 'react-bootstrap'
 
 const DetallePokemon = () => {
